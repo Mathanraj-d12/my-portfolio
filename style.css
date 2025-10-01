@@ -1,0 +1,69 @@
+/* Reset and Basic Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    font-family: Arial,  sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+nav{
+    background-color: #333;
+    padding: 1rem;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+
+nav ul li{
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ff6347;
+}
+
+
+
+/* Hero section */
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    background: #61dafb;
+    color: #fff;
+}
+
+
+.hero button{
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border: none;
+    background-color: #ff6347;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.hero button:hover {
+  background-color: #e5533d;
+} 
