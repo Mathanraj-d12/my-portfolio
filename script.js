@@ -1,4 +1,3 @@
-// // Smooth Scroll for navbar links
 // Smooth scroll for navbar links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener("click", function(e) {
