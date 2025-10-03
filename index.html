@@ -9,61 +9,65 @@
 <body>
 
     <!-- Nav bar -->
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contacts</a></li>
-            
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Hero section -->
-    <section class="hero">
-        <h1>Hi, I'm your Mathan Raj</h1>
-        <p>I am a Web developer of Html, css, Js and React.js</p>
-        <button>View My Work</button>
-    </section>
+    <main>
+        <!-- Hero section -->
+        <section class="hero" id="home">
+            <h1>Hi, I'm Mathan Raj</h1>
+            <p>I am a Web developer of HTML, CSS, JS and React.js</p>
+            <button>View My Work</button>
+        </section>
 
-    <!-- About Me Section -->
-     <section class="about" id="about">
-        <h2>About Me</h2>
-        <div class="about-container">
-            <img src="images/myphoto.jpeg" alt="My Photo">
-            <p>
-                Hi, I'm <b>Mathan raj.</b>
-               I am a passionate Python Full Stack Developer with a strong foundation in building dynamic and responsive web applications. I have hands-on experience with HTML, CSS, JavaScript, ReactJS, SQL, and Python, and I enjoy turning ideas into functional and user-friendly solutions.
-               I am constantly improving my skills and exploring new technologies to deliver clean, efficient, and scalable code. My goal is to grow as a developer while contributing to impactful projects that create real value.
-            </p>
-        </div>
-     </section>
-
-     <!-- Project Section -->
-      <section class="projects" id="projects">
-        <h2>My Projects</h2>
-        <div class="project-container">
-            <div class="project-card">
-                <h3>Project one</h3>
-                <p>"Our Job Board Web Application is a modern platform that connects job seekers with employers efficiently. Users can create profiles, browse and apply for job listings, and receive personalized job recommendations based on their skills and preferences. Employers can post job openings, manage applications, and find suitable candidates quickly. With an instinct interface, real-time search, and advanced filtering, the platform simplifies the job hunting and recruitment process for everyone."</p>
-                <a href="https://github.com/Mathanraj-d12/job-board-web" target="_blank">Github</a>
+        <!-- About Me Section -->
+        <section class="about" id="about">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <img src="images/myphoto.jpeg" alt="My Photo">
+                <p>
+                    Hi, I'm <b>Mathan Raj.</b>
+                    I am a passionate Python Full Stack Developer with a strong foundation in building dynamic and responsive web applications. I have hands-on experience with HTML, CSS, JavaScript, ReactJS, SQL, and Python, and I enjoy turning ideas into functional and user-friendly solutions.
+                    I am constantly improving my skills and exploring new technologies to deliver clean, efficient, and scalable code. My goal is to grow as a developer while contributing to impactful projects that create real value.
+                </p>
             </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- Contact section -->
-      <section class="contact" id="contact">
+        <!-- Project Section -->
+        <section class="projects" id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>Project One</h3>
+                    <p>"Our Job Board Web Application is a modern platform that connects job seekers with employers efficiently. Users can create profiles, browse and apply for job listings, and receive personalized job recommendations based on their skills and preferences. Employers can post job openings, manage applications, and find suitable candidates quickly. With an instinct interface, real-time search, and advanced filtering, the platform simplifies the job hunting and recruitment process for everyone."</p>
+                    <a href="https://github.com/Mathanraj-d12/job-board-web" target="_blank">Github</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
             <h2>Contact me</h2>
             <form id="contact-form">
-                <input type="text" name="name" placeholder="your name" required>
-                <input type="email" name="email" placeholder="your email" required>
-                <textarea name="message" placeholder="your message" required></textarea>
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
                 <button type="submit">Send message</button>
                 <p id="form-message"></p>
             </form>
-      </section>
-      
-   <script src="script.js"></script> 
+        </section>
+    </main>
 
+    <script src="script.js"></script> 
 </body>
 </html>
