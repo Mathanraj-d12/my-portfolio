@@ -262,3 +262,31 @@ nav ul li a:hover {
         width: 100%;
     }
 }
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Button hover animation */
+.hero button {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Project card animation already has hover effect from Day 3, you can enhance */
+.project-card:hover {
+  transform: translateY(-7px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
