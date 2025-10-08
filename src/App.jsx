@@ -60,3 +60,44 @@ function App() {
 }
 
 export default App;
+
+
+// // server.js or index.js
+// import express from "express";
+// import cors from "cors";
+// import nodemailer from "nodemailer";
+
+// const app = express();
+// app.use(cors());
+// app.use(express.json());
+
+// app.post("/send", async (req, res) => {
+//   const { name, email, message } = req.body;
+
+//   // Configure Nodemailer
+//   const transporter = nodemailer.createTransport({
+//     service: "gmail", // or your email provider
+//     auth: {
+//       user: "mathanraj212@gmail.com",
+//       pass: "Math@9898",
+//     },
+//   });
+
+//   const mailOptions = {
+//     from: email,
+//     to: "mathanrajd12@gmail.com",
+//     subject: `Portfolio Contact Form: ${name}`,
+//     text: message,
+//   };
+
+//   try {
+//     await transporter.sendMail(mailOptions);
+//     res.status(200).json({ message: "Email sent successfully!" });
+//   } catch (error) {
+//     console.error(error);
+//     res.status(500).json({ message: "Failed to send email." });
+//   }
+// });
+
+// const PORT = process.env.PORT || 5000;
+// app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

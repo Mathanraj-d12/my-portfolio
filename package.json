@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite preview --port $PORT --host 0.0.0.0",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -27,3 +26,5 @@
     "vite": "^7.1.7"
   }
 }
+
+
