@@ -1,16 +1,81 @@
 import React from "react";
 
-const Projects = () => (
-  <section className="projects" id="projects">
-    <h2>My Projects</h2>
-    <div className="projects-container">
-      <div className="project-card">
-        <h3>Job-Board-Web</h3>
-        <p>"Our Job Board Web Application is a modern platform that connects job seekers with employers efficiently. Users can create profiles, browse and apply for job listings, and receive personalized job recommendations based on their skills and preferences. Employers can post job openings, manage applications, and find suitable candidates quickly. With an instinct interface, real-time search, and advanced filtering, the platform simplifies the job hunting and recruitment process for everyone.</p>
-        <a href="https://github.com/Mathanraj-d12/job-board-web">GitHub</a>
+const Projects = () => {
+  return (
+    <section className="projects" id="projects">
+      <h2 className="section-title">My Projects</h2>
+
+      <div className="projects-container">
+        {/* Django Job Board */}
+        <div className="project-card">
+          <h3>Django Job Board Web Application</h3>
+
+          <p>
+            A full-stack job portal where employers can post jobs and manage
+            applications, and job seekers can apply for positions. Designed with
+            role-based access and secure backend architecture.
+          </p>
+
+          <p className="tech-stack">
+            <strong>Tech:</strong> Django, Django REST Framework, SQLite, Render
+          </p>
+
+          <div className="project-links">
+            <a
+              href="https://django-job-board-4ja4.onrender.com"
+              target="_blank"
+              rel="noreferrer"
+              className="btn"
+            >
+              Live Demo
+            </a>
+            <a
+              href="https://github.com/Mathanraj-d12/django-job-board"
+              target="_blank"
+              rel="noreferrer"
+              className="btn outline"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        {/* JavaScript Job Board */}
+        <div className="project-card">
+          <h3>JavaScript Job Board Application</h3>
+
+          <p>
+            A frontend-focused job board application built using JavaScript.
+            Allows users to browse jobs, apply filters, and interact with job
+            listings through dynamic UI updates.
+          </p>
+
+          <p className="tech-stack">
+            <strong>Tech:</strong> HTML, CSS, JavaScript, Vercel, Firebase
+          </p>
+
+          <div className="project-links">
+            <a
+              href="https://job-board-web-fawn.vercel.app"
+              target="_blank"
+              rel="noreferrer"
+              className="btn"
+            >
+              Live Demo
+            </a>
+            <a
+              href="https://github.com/Mathanraj-d12/job-board-web"
+              target="_blank"
+              rel="noreferrer"
+              className="btn outline"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
-);
+    </section>
+  );
+};
 
 export default Projects;
