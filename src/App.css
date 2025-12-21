@@ -326,11 +326,23 @@ section {
 .skills {
   background: #0b1220;
   text-align: center;
+  padding: 80px 20px; /* VERY IMPORTANT */
 }
 
 section {
   width: 100%;
   overflow-x: hidden;
+}
+
+.skills-group {
+  margin-bottom: 70px; /* space between groups */
+}
+
+.skills-group-title {
+  font-size: 1.6rem;
+  color: #e5e7eb;
+  margin-bottom: 30px;
+  margin-top: 40px;
 }
 
 
@@ -339,6 +351,7 @@ section {
   color: var(--highlight);
   margin-bottom: 50px;
 }
+
 
 .skills-grid {
   max-width: 900px;

@@ -17,18 +17,11 @@ const Projects = () => {
           </p>
 
           <p className="tech-stack">
-            <strong>Tech:</strong> Django, Django REST Framework, SQLite, Render
+            <strong>Tech:</strong> Django, Python, HTML, CSS, Boostrap
           </p>
 
           <div className="project-links">
-            <a
-              href="https://django-job-board-4ja4.onrender.com"
-              target="_blank"
-              rel="noreferrer"
-              className="btn"
-            >
-              Live Demo
-            </a>
+            
             <a
               href="https://github.com/Mathanraj-d12/django-job-board"
               target="_blank"
@@ -51,18 +44,11 @@ const Projects = () => {
           </p>
 
           <p className="tech-stack">
-            <strong>Tech:</strong> HTML, CSS, JavaScript, Vercel, Firebase
+            <strong>Tech:</strong> HTML, CSS, JavaScript, React.js, Firebase
           </p>
 
           <div className="project-links">
-            <a
-              href="https://job-board-web-fawn.vercel.app"
-              target="_blank"
-              rel="noreferrer"
-              className="btn"
-            >
-              Live Demo
-            </a>
+            
             <a
               href="https://github.com/Mathanraj-d12/job-board-web"
               target="_blank"
